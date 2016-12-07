@@ -71,7 +71,11 @@ $(document).ready(function() {
 
 $('#button').append('<button>Reset</button>')
 $('button').on('click', function(){ 
+  wins = 0;
+  losses = 0;
   total = 0;
+  $('#wins').text(wins);
+  $('#losses').text(losses);
   $('#currentScore').text(total);
   startGame();$('#lost').text('');
 });
