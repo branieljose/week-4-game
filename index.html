@@ -5,20 +5,22 @@
     <title>Crystal Game</title>
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   </head>
     <body>
+    <div class='col-sm-6-center-margin-left-12'>
         <h1>Crystals Collector!</h1>
          <p>Losses: <span id="losses">0</span></p>
               <p>Wins: <span id="wins">0</span></p>
                 <p>Goal: <span id="goal"></span></p>
-                  <div id="emerald"><img src="./assets/images/emerald.png" alt="Emerald Crystal"></div>
-                    <div id="amethyst"><img src="./assets/images/amethyst.png" alt="Amethyst Crystal"></div>
-                      <div id="aquamarine"><img src="./assets/images/aquamarine.png" alt="Aquamarine Crystal"></div>
-                    <div id="opal"><img src="./assets/images/opal.png" alt="Opal Crystal"></div>
-            <h2>Your total score is:<span id="currentScore">0</span></h2>
-        <div class="button"></div>
+                  <div id='crystalImages'></div>
+                 </div>            
+                  <p>Your total score is:<span id="currentScore">0</span></p>
+                <div id='lost'></div>
+        <div id="button"></div>
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
       <script src="./assets/javascript/game.js"></script>
     </body>
 
 </html>
+
