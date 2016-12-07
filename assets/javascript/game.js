@@ -10,10 +10,10 @@ $(document).ready(function() {
      opal = 0 
       ];  
   var images = [
-      $("<img>").addClass("emeraldImage").attr("src", "./assets/images/emerald.png").attr("data-emeraldValue", emerald) ,
-      $("<img>").addClass("aquamarineImage").attr("src", "./assets/images/aquamarine.png").attr("data-aquamaineValue", aquamarine) ,
-      $("<img>").addClass("amethystImage").attr("src", "./assets/images/amethyst.png").attr("data-amethystValue", amethyst) ,
-      $("<img>").addClass("opalImage").attr("src", "./assets/images/opal.png").attr("data-opalValue", opal)
+      $("<img>").addClass("emeraldImage").attr("src", "assets/images/emerald.png").attr("data-emeraldValue", emerald) ,
+      $("<img>").addClass("aquamarineImage").attr("src", "assets/images/aquamarine.png").attr("data-aquamaineValue", aquamarine) ,
+      $("<img>").addClass("amethystImage").attr("src", "assets/images/amethyst.png").attr("data-amethystValue", amethyst) ,
+      $("<img>").addClass("opalImage").attr("src", "assets/images/opal.png").attr("data-opalValue", opal)
       ];
       $('#crystalImages').append(images);
     
